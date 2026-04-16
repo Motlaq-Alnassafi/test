@@ -1,10 +1,7 @@
 import SwiftUI
 
-@main
-struct WelcomeFeatureiOSApp: App {
-    var body: some Scene {
-        WindowGroup {
-            WelcomeView()
-        }
-    }
+/// Legacy app struct retained for backward compatibility.
+/// The actual `@main` entry point is ``AppSkeletonApp``.
+struct WelcomeFeatureiOSApp_Legacy {
+    // Intentionally empty — the old @main has moved to AppSkeletonApp.
 }
