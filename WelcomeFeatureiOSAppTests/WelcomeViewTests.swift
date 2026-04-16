@@ -1,5 +1,5 @@
 import Testing
-@testable import WelcomeFeature
+@testable import WelcomeFeatureiOSApp
 
 @Suite("WelcomeView Tests")
 @MainActor
@@ -16,13 +16,13 @@ struct WelcomeViewTests {
 
     @Test("Get Started action invokes the configured callback")
     func triggersGetStartedAction() {
-        var capturedMessage: String?
+        var tappedMessage: String?
         let view = WelcomeView {
-            capturedMessage = WelcomeView.getStartedTappedMessage
+            tappedMessage = WelcomeView.getStartedTappedMessage
         }
 
         view.triggerGetStarted()
 
-        #expect(capturedMessage == "Get Started tapped")
+        #expect(tappedMessage == "Get Started tapped")
     }
 }

@@ -1,8 +1,7 @@
 import SwiftUI
-import WelcomeFeature
 
 @main
-struct WelcomeFeatureApp: App {
+struct WelcomeFeatureiOSApp: App {
     var body: some Scene {
         WindowGroup {
             WelcomeView()

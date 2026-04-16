@@ -1,22 +1,22 @@
 import SwiftUI
 
-public struct WelcomeView: View {
-    public static let headingText = "Welcome"
-    public static let getStartedButtonTitle = "Get Started"
-    public static let getStartedTappedMessage = "Get Started tapped"
-    public static let headingAccessibilityLabel = "Welcome heading"
-    public static let getStartedAccessibilityLabel = "Get Started"
-    public static let getStartedAccessibilityHint = "Starts the onboarding flow"
+struct WelcomeView: View {
+    static let headingText = "Welcome"
+    static let getStartedButtonTitle = "Get Started"
+    static let getStartedTappedMessage = "Get Started tapped"
+    static let headingAccessibilityLabel = "Welcome heading"
+    static let getStartedAccessibilityLabel = "Get Started"
+    static let getStartedAccessibilityHint = "Starts the onboarding flow"
 
     private let onGetStarted: () -> Void
 
-    public init(onGetStarted: @escaping () -> Void = {
+    init(onGetStarted: @escaping () -> Void = {
         print(Self.getStartedTappedMessage)
     }) {
         self.onGetStarted = onGetStarted
     }
 
-    public var body: some View {
+    var body: some View {
         VStack(spacing: 16) {
             Text(Self.headingText)
                 .font(.largeTitle)
