@@ -11,6 +11,24 @@
 		AA0000000000000000000021 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000011 /* WelcomeView.swift */; };
 		AA0000000000000000000022 /* WelcomeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000012 /* WelcomeViewTests.swift */; };
 		AA0000000000000000000023 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000015 /* XCTest.framework */; };
+		BB0000000000000000000101 /* AppSkeletonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000001 /* AppSkeletonApp.swift */; };
+		BB0000000000000000000102 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000002 /* AppCoordinator.swift */; };
+		BB0000000000000000000103 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000003 /* OnboardingCoordinator.swift */; };
+		BB0000000000000000000104 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000004 /* OnboardingFlowView.swift */; };
+		BB0000000000000000000105 /* OnboardingFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000005 /* OnboardingFlowViewModel.swift */; };
+		BB0000000000000000000106 /* OnboardingPage1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000006 /* OnboardingPage1View.swift */; };
+		BB0000000000000000000107 /* OnboardingPage2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000007 /* OnboardingPage2View.swift */; };
+		BB0000000000000000000108 /* OnboardingPage3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000008 /* OnboardingPage3View.swift */; };
+		BB0000000000000000000109 /* OnboardingPage4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000009 /* OnboardingPage4View.swift */; };
+		BB000000000000000000010A /* OnboardingProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000000000000000000000A /* OnboardingProgressBar.swift */; };
+		BB000000000000000000010B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000000000000000000000B /* HomeView.swift */; };
+		BB000000000000000000010C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000000000000000000000C /* HomeViewModel.swift */; };
+		BB000000000000000000010D /* OnboardingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000000000000000000000D /* OnboardingStorage.swift */; };
+		BB000000000000000000010E /* UserDefaultsOnboardingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000000000000000000000E /* UserDefaultsOnboardingStorage.swift */; };
+		BB000000000000000000010F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000000000000000000000F /* Coordinator.swift */; };
+		BB0000000000000000000110 /* OnboardingFlowViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000010 /* OnboardingFlowViewModelTests.swift */; };
+		BB0000000000000000000111 /* OnboardingStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000011 /* OnboardingStorageTests.swift */; };
+		BB0000000000000000000112 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000012 /* AppCoordinatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +48,24 @@
 		AA0000000000000000000013 /* WelcomeFeatureiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WelcomeFeatureiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0000000000000000000014 /* WelcomeFeatureiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelcomeFeatureiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0000000000000000000015 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		BB0000000000000000000001 /* AppSkeletonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSkeletonApp.swift; sourceTree = "<group>"; };
+		BB0000000000000000000002 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BB0000000000000000000003 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		BB0000000000000000000004 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000005 /* OnboardingFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowViewModel.swift; sourceTree = "<group>"; };
+		BB0000000000000000000006 /* OnboardingPage1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage1View.swift; sourceTree = "<group>"; };
+		BB0000000000000000000007 /* OnboardingPage2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage2View.swift; sourceTree = "<group>"; };
+		BB0000000000000000000008 /* OnboardingPage3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage3View.swift; sourceTree = "<group>"; };
+		BB0000000000000000000009 /* OnboardingPage4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage4View.swift; sourceTree = "<group>"; };
+		BB000000000000000000000A /* OnboardingProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingProgressBar.swift; sourceTree = "<group>"; };
+		BB000000000000000000000B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB000000000000000000000C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BB000000000000000000000D /* OnboardingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStorage.swift; sourceTree = "<group>"; };
+		BB000000000000000000000E /* UserDefaultsOnboardingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsOnboardingStorage.swift; sourceTree = "<group>"; };
+		BB000000000000000000000F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BB0000000000000000000010 /* OnboardingFlowViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowViewModelTests.swift; sourceTree = "<group>"; };
+		BB0000000000000000000011 /* OnboardingStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStorageTests.swift; sourceTree = "<group>"; };
+		BB0000000000000000000012 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				AA0000000000000000000004 /* WelcomeFeatureiOSApp */,
+				BB0000000000000000000201 /* AppSkeleton */,
 				AA0000000000000000000005 /* WelcomeFeatureiOSAppTests */,
+				BB000000000000000000020B /* Tests */,
 				AA0000000000000000000006 /* Frameworks */,
 				AA0000000000000000000003 /* Products */,
 			);
@@ -93,6 +131,118 @@
 				AA0000000000000000000015 /* XCTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000201 /* AppSkeleton */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000202 /* App */,
+				BB0000000000000000000203 /* Features */,
+				BB0000000000000000000208 /* Core */,
+			);
+			path = AppSkeleton;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000202 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000001 /* AppSkeletonApp.swift */,
+				BB0000000000000000000002 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000203 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000204 /* Onboarding */,
+				BB0000000000000000000207 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000204 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000003 /* OnboardingCoordinator.swift */,
+				BB0000000000000000000004 /* OnboardingFlowView.swift */,
+				BB0000000000000000000005 /* OnboardingFlowViewModel.swift */,
+				BB0000000000000000000205 /* Pages */,
+				BB0000000000000000000206 /* Components */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000205 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000006 /* OnboardingPage1View.swift */,
+				BB0000000000000000000007 /* OnboardingPage2View.swift */,
+				BB0000000000000000000008 /* OnboardingPage3View.swift */,
+				BB0000000000000000000009 /* OnboardingPage4View.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000206 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BB000000000000000000000A /* OnboardingProgressBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000207 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB000000000000000000000B /* HomeView.swift */,
+				BB000000000000000000000C /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000208 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000209 /* Storage */,
+				BB000000000000000000020A /* Navigation */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000209 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				BB000000000000000000000D /* OnboardingStorage.swift */,
+				BB000000000000000000000E /* UserDefaultsOnboardingStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		BB000000000000000000020A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				BB000000000000000000000F /* Coordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		BB000000000000000000020B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BB000000000000000000020C /* AppSkeletonTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		BB000000000000000000020C /* AppSkeletonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000010 /* OnboardingFlowViewModelTests.swift */,
+				BB0000000000000000000011 /* OnboardingStorageTests.swift */,
+				BB0000000000000000000012 /* AppCoordinatorTests.swift */,
+			);
+			path = AppSkeletonTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +344,21 @@
 			files = (
 				AA0000000000000000000020 /* WelcomeFeatureiOSApp.swift in Sources */,
 				AA0000000000000000000021 /* WelcomeView.swift in Sources */,
+				BB0000000000000000000101 /* AppSkeletonApp.swift in Sources */,
+				BB0000000000000000000102 /* AppCoordinator.swift in Sources */,
+				BB0000000000000000000103 /* OnboardingCoordinator.swift in Sources */,
+				BB0000000000000000000104 /* OnboardingFlowView.swift in Sources */,
+				BB0000000000000000000105 /* OnboardingFlowViewModel.swift in Sources */,
+				BB0000000000000000000106 /* OnboardingPage1View.swift in Sources */,
+				BB0000000000000000000107 /* OnboardingPage2View.swift in Sources */,
+				BB0000000000000000000108 /* OnboardingPage3View.swift in Sources */,
+				BB0000000000000000000109 /* OnboardingPage4View.swift in Sources */,
+				BB000000000000000000010A /* OnboardingProgressBar.swift in Sources */,
+				BB000000000000000000010B /* HomeView.swift in Sources */,
+				BB000000000000000000010C /* HomeViewModel.swift in Sources */,
+				BB000000000000000000010D /* OnboardingStorage.swift in Sources */,
+				BB000000000000000000010E /* UserDefaultsOnboardingStorage.swift in Sources */,
+				BB000000000000000000010F /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +367,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0000000000000000000022 /* WelcomeViewTests.swift in Sources */,
+				BB0000000000000000000110 /* OnboardingFlowViewModelTests.swift in Sources */,
+				BB0000000000000000000111 /* OnboardingStorageTests.swift in Sources */,
+				BB0000000000000000000112 /* AppCoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
